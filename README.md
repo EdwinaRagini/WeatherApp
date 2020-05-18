@@ -11,7 +11,7 @@ Open the file in a browser to view the reports
  
  Answers for the questions : 
  
- - If I had more time , I would have done a better work with good naming conventions,
+ - If I had more time , I would have done a better work with more negative scenarios,good naming conventions,
 string formatting, html reporting , epoch date conversions , have had config file holding the apikey,url,
 better Given when then step definitions making it readable to the business and would have added dates in the weather report file names
 
