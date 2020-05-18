@@ -1,0 +1,58 @@
+{
+   "firstName":"Edwina",
+   "lastName":"Mariadoss",
+   "livesin":"London",
+   "hobbies":[
+      "cooking",
+      "badminton"
+   ],
+   "children":[
+      {
+         "name":"Judith",
+         "age":"2"
+      }
+   ],
+   "bestInMe":[
+      "friendly",
+      "team player",
+      "open to learning",
+      "ready to take challenges"
+   ],
+   "workSummary":[
+      {
+         "company":"Infosys",
+         "title":"Systems Engineer Trainee",
+         "year":"2010-2011"
+      },
+      {
+         "company":"Cognizant",
+         "title":"Programmer Analyst",
+         "year":"2011-2012"
+      },
+      {
+         "company":"Electric Paper",
+         "title":"Application Support",
+         "year":"2013-2013"
+      },
+      {
+         "company":"TopToToe Stock Management",
+         "title":"Test Analyst",
+         "year":"2014-2015"
+      },
+      {
+         "company":"Worldpay",
+         "title":"Test Automation Analyst",
+         "year":"2016-2019"
+      },
+      {
+         "company":"ClearBank",
+         "title":"QA Engineer",
+         "year":"2019-2020"
+      },
+      {
+         "company":"Checkout.com",
+         "title":"Senior QA Engineer",
+         "year":"2020- till date"
+      }
+   ]
+}
