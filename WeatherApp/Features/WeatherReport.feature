@@ -3,6 +3,7 @@
 	I would like to get the weather data
 	and generate weather reports
 
+#Calls the One Call API to get the weekly weather report
 @weather
 Scenario Outline: Weekly weather report is generated for the cities
 	Given I get weather forecast data for the given cities:
@@ -19,6 +20,7 @@ Scenario Outline: Weekly weather report is generated for the cities
 	| 38.722252 | -9.139337  | Lisbon   |
 	| 40.713054 | -74.007228 | New York |
 
+#Calls the Current Weather Data API to get the current weather data for a city
 @weather
 Scenario: Get the minimum and maximum temperature for Paris
     Given I get the current weather forecast for 'Paris'
