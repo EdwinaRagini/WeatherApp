@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace WeatherApp.Helpers
 {
@@ -14,19 +12,19 @@ namespace WeatherApp.Helpers
 
         public string AddH2Header(string value)
         {
-            string body = String.Format("<h2>{0}</h2>", value);
+            string body = $"<h2>{value}</h2>";
             return body;
         }
 
         public string AddH3Header(string value)
         {
-            string body = String.Format("<h3>{0}</h3>", value);
+            string body = $"<h3>{value}</h3>";
             return body;
         }
 
         public string AddH4Header(string value)
         {
-            string body = String.Format("<h4>{0}</h4>", value);
+            string body = $"<h4>{value}</h4>";
             return body;
 
         }
@@ -49,7 +47,7 @@ namespace WeatherApp.Helpers
 
         public string AddRow(string key, string value)
         {
-            string body = String.Format("<tr><th>{0}</th><td>{1}</td></tr>", key, value);
+            string body = $"<tr><th>{key}</th><td>{value}</td></tr>";
             return body;
         }
 
@@ -64,6 +62,5 @@ namespace WeatherApp.Helpers
             string body = "</table>";
             return body;
         }
-
     }
 }

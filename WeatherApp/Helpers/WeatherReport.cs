@@ -9,7 +9,6 @@ namespace WeatherApp.Helpers
     {
         public string ConstructWeatherReportInHtml(WeeklyWeatherSettings weatherSettings, string hottestDay)
         {
-
             StringBuilder data = new StringBuilder();
             var html = new HtmlHelpers();
             data.AppendLine(html.CreateBody());
@@ -55,8 +54,6 @@ namespace WeatherApp.Helpers
             data.Append(html.AddPageFooter());
             return data.ToString();
         }
-
-
         public string ConstructCurrentWeatherReportInHtml(string min, string max, string city)
         {
             StringBuilder data = new StringBuilder();

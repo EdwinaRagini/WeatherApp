@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WeatherApp.Helpers
+﻿namespace WeatherApp.Helpers
 {
     public class DateHelper
     {
