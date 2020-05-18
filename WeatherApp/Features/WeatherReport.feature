@@ -1,7 +1,7 @@
 ﻿Feature: Weather
-	In order to avoid silly mistakes
-	As a math idiot
-	I want to be told the sum of two numbers
+	As a user of open weather api user
+	I would like to get the weather data
+	and generate weather reports
 
 @weather
 Scenario Outline: Weekly weather report is generated for the cities
